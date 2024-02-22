@@ -77,7 +77,16 @@ func doSecretsManagerSubstitution(ctx context.Context, input string) (string, er
 	return result, nil
 }
 
+func usage() {
+	fmt.Printf("Incorrect invocation, usage: %v CMD [ARGUMENTS...]\n", os.Args[0])
+}
+
 func main() {
+
+	if len(os.Args) < 2 {
+		usage()
+		os.Exit(1)
+	}
 
 	ctx := context.Background()
 	substitutions := make(map[string]string)
