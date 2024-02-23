@@ -25,7 +25,8 @@ will be substituted.
 ## Usage
 
 1. Grab **gcp-env** binary for your platform from the
-[releases page](https://github.com/airman604/gcp-env/releases).
+[releases page](https://github.com/airman604/gcp-env/releases). Place it in a
+directory that's in the PATH and make it executable.
 
 2. Start your application with **gcp-env**:
 
