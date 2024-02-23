@@ -53,6 +53,15 @@ Substitute references to secrets in a configuration file:
 cat input.cfg.template | gcp-env envsubst > output.cfg
 ```
 
+Store whole configuration file in Secret Manager:
+
+```bash
+export MY_SECRET_CONFIG=sm://...
+# using single quotes is important here!
+gcp-env sh -c 'echo "$MY_SECRET_CONFIG" > secret.cfg'
+```
+
+
 Inject secrets into a container:
 
 ```bash
