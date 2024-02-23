@@ -70,7 +70,7 @@ export MY_SECRET=sm://projects/1234567890123/secrets/my-secret
 gcp-env docker run -d -e MY_SECRET alpine
 ```
 
-Use gcp-env within the container:
+Use gcp-env within the container (Dockerfile):
 
 ```Dockerfile
 FROM alpine
