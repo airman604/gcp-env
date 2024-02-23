@@ -75,8 +75,6 @@ Use gcp-env within the container:
 ```Dockerfile
 FROM alpine
 
-RUN apk add --no-cache openssl ca-certificates
-
 RUN wget https://github.com/airman604/gcp-env/releases/download/v0.0.3/gcp-env_0.0.3_linux_amd64 -O /usr/local/bin/gcp-env && \
   chmod +x /usr/local/bin/gcp-env
 
