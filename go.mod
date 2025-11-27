@@ -1,8 +1,6 @@
 module github.com/airman604/gcp-env
 
-go 1.24.0
-
-toolchain go1.24.1
+go 1.25.4
 
 require cloud.google.com/go/secretmanager v1.14.2
 
