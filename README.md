@@ -75,7 +75,7 @@ Use gcp-env within the container (Dockerfile):
 ```Dockerfile
 FROM alpine
 
-RUN wget https://github.com/airman604/gcp-env/releases/download/v0.0.3/gcp-env_0.0.3_linux_amd64 -O /usr/local/bin/gcp-env && \
+RUN wget https://github.com/airman604/gcp-env/releases/download/v0.0.7/gcp-env_0.0.7_linux_amd64 -O /usr/local/bin/gcp-env && \
   chmod +x /usr/local/bin/gcp-env
 
 ENTRYPOINT ["gcp-env"]
