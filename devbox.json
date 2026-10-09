@@ -1,6 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.14.1/.schema/devbox.schema.json",
-  "packages": ["goreleaser@0.184.0", "go@1.27"],
+  "packages": ["goreleaser@2.17.1", "go@1.27"],
   "shell": {
     "init_hook": [],
     "scripts": {
