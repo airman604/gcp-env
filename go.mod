@@ -2,7 +2,7 @@ module github.com/airman604/gcp-env
 
 go 1.26.0
 
-require cloud.google.com/go/secretmanager v1.23.1
+require cloud.google.com/go/secretmanager v1.24.0
 
 require (
 	cloud.google.com/go/auth v0.24.1-0.20261001053825-dbc26066f70a // indirect
