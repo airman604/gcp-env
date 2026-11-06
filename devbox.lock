@@ -43,41 +43,41 @@
         }
       }
     },
-    "goreleaser@2.17.1": {
-      "last_modified": "2026-10-07T09:43:42Z",
-      "resolved": "github:NixOS/nixpkgs/39ad350a0602fa0a58a544344e3e9187526ea45c#goreleaser",
+    "goreleaser@2.19.0": {
+      "last_modified": "2026-11-04T21:12:09Z",
+      "resolved": "github:NixOS/nixpkgs/6dadaf4375be35033e1c84395adbd53ff5fded96#goreleaser",
       "source": "devbox-search",
-      "version": "2.17.1",
+      "version": "2.19.0",
       "systems": {
         "aarch64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/xc1v4vi2k753mpyvw3x179a1902mcwwx-goreleaser-2.17.1",
+              "path": "/nix/store/savb53vm7jas5nrdf8lzcs77nqji6w9x-goreleaser-2.19.0",
               "default": true
             }
           ],
-          "store_path": "/nix/store/xc1v4vi2k753mpyvw3x179a1902mcwwx-goreleaser-2.17.1"
+          "store_path": "/nix/store/savb53vm7jas5nrdf8lzcs77nqji6w9x-goreleaser-2.19.0"
         },
         "aarch64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/srsk0h3a14wkd1yfi5ajmjqxr5hfjlsm-goreleaser-2.17.1",
+              "path": "/nix/store/pfnmj7ki11frhgmcq7lv55fpziv0qklg-goreleaser-2.19.0",
               "default": true
             }
           ],
-          "store_path": "/nix/store/srsk0h3a14wkd1yfi5ajmjqxr5hfjlsm-goreleaser-2.17.1"
+          "store_path": "/nix/store/pfnmj7ki11frhgmcq7lv55fpziv0qklg-goreleaser-2.19.0"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/kl03fvkql3kibd35in718pn3nf3xx0il-goreleaser-2.17.1",
+              "path": "/nix/store/b6f1hcvmbrlxrfx8gd2lxdcac4d4wddc-goreleaser-2.19.0",
               "default": true
             }
           ],
-          "store_path": "/nix/store/kl03fvkql3kibd35in718pn3nf3xx0il-goreleaser-2.17.1"
+          "store_path": "/nix/store/b6f1hcvmbrlxrfx8gd2lxdcac4d4wddc-goreleaser-2.19.0"
         }
       }
     }
